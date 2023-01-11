@@ -6,7 +6,7 @@ namespace ConsoleAppCRUD
     {
         static void Main(string[] args)
         {
-            // Добавление
+            //Добавление
             using (ApplicationContext db = new ApplicationContext())
             {
                 User tom = new User { Name = "Tom", Age = 33 };
